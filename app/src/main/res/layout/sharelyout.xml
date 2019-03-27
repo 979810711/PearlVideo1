@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:visibility="gone"
+    android:id="@+id/sharelayout"
+    android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/hello"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/textback"
+        android:layout_height="@dimen/dp_227">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/pyq"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/dp_43"
+            android:layout_marginLeft="@dimen/dp_61"
+            android:src="@mipmap/pyq"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="朋友圈"
+            android:layout_marginLeft="@dimen/dp_67"
+            android:layout_marginTop="@dimen/dp_100"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@mipmap/wx"
+            android:id="@+id/wx"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/dp_43"
+            android:layout_marginLeft="@dimen/dp_130"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="微信"
+            android:layout_marginLeft="@dimen/dp_136"
+            android:layout_marginTop="@dimen/dp_100"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/qq"
+            android:id="@+id/qq"
+            android:layout_marginTop="@dimen/dp_43"
+            android:layout_marginLeft="@dimen/dp_199"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="QQ"
+            android:layout_marginLeft="@dimen/dp_210"
+            android:layout_marginTop="@dimen/dp_100"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@mipmap/wb"
+            android:id="@+id/wb"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/dp_43"
+            android:layout_marginLeft="@dimen/dp_268"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="微博"
+            android:layout_marginLeft="@dimen/dp_279"
+            android:layout_marginTop="@dimen/dp_100"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:visibility="gone"
+            android:text="取消"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_55"
+            android:id="@+id/cancel"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

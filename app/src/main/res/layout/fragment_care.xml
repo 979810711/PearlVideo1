@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    tools:context="yjh.com.cn.pearlvideo.Frgment.CareFragment">
+
+    <RelativeLayout
+        android:id="@+id/isRelative"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="@android:color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="发现"
+            android:textColor="#ff000000"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <yjh.com.cn.pearlvideo.PullToRefresh.PullToRefreshLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rootRefresh"
+        android:layout_below="@+id/isRelative"
+        android:layout_height="match_parent">
+    <include layout="@layout/refresh_head" />
+
+
+    <yjh.com.cn.pearlvideo.PullToRefresh.PullableScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/focusRecyclerView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+    </yjh.com.cn.pearlvideo.PullToRefresh.PullableScrollView>
+    <include layout="@layout/load_more"/>
+    </yjh.com.cn.pearlvideo.PullToRefresh.PullToRefreshLayout>
+
+
+
+
+</RelativeLayout>

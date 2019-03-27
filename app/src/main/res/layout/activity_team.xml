@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_team"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    tools:context="yjh.com.cn.pearlvideo.activity.TeamActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/isRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/back_team"
+            android:layout_width="@dimen/dp_24"
+            android:layout_height="@dimen/dp_24"
+            android:src="@mipmap/fh" />
+
+        <TextView
+            android:id="@+id/team_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="全部团员"
+            android:textColor="#ff000000"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mylayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_30"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dp_35"
+            android:layout_marginRight="@dimen/dp_35"
+            android:layout_height="@dimen/dp_77"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/allteam"
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_45"
+                android:layout_weight="1"
+                android:src="@mipmap/tmqbj" />
+
+            <ImageView
+                android:id="@+id/renz"
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_45"
+                android:layout_weight="1"
+                android:src="@mipmap/rzs" />
+
+            <ImageView
+                android:id="@+id/wrz"
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_45"
+                android:layout_weight="1"
+                android:src="@mipmap/tmrz" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/teamList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mylayout"
+        android:layout_marginTop="@dimen/dp_20" />
+
+
+</RelativeLayout>

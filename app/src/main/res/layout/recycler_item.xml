@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:background="#77999999"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dp_4"
+        android:layout_height="@dimen/dp_80">
+
+        <ImageView
+            android:layout_marginLeft="@dimen/dp_8"
+            android:layout_marginTop="@dimen/dp_8"
+            android:id="@+id/head1"
+            android:src="@drawable/mei"
+            android:layout_width="@dimen/dp_55"
+            android:layout_height="@dimen/dp_55" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="百事可乐"
+            android:textColor="#ff999999"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:textSize="15sp"
+            android:id="@+id/name1"
+            android:layout_toRightOf="@+id/head1"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_25"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/ax"
+            android:id="@+id/ax_img1"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_height="@dimen/dp_25" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/freedom1"
+            android:text="我可以试试"
+            android:textColor="#ff333333"
+            android:textSize="16sp"
+
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_toRightOf="@+id/head1"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_below="@+id/name1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/datas1"
+            android:text="2010-08-09"
+            android:textColor="#ff999999"
+            android:textSize="16sp"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_toRightOf="@+id/name1"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_83">
+
+        <ImageView
+            android:id="@+id/heads"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_width="@dimen/dp_43"
+            android:layout_centerVertical="true"
+            android:src="@drawable/mei"
+            android:layout_height="@dimen/dp_43" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/name"
+            android:text="我的名字"
+            android:textSize="18sp"
+            android:layout_marginTop="@dimen/dp_17"
+            android:layout_marginLeft="@dimen/dp_62"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/sex"
+            android:src="@mipmap/nan"
+            android:layout_marginTop="@dimen/dp_41"
+            android:layout_marginLeft="@dimen/dp_62"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="@dimen/dp_62"
+            android:textSize="14sp"
+            android:text="作品：111"
+            android:id="@+id/my_zp"
+            android:layout_marginBottom="@dimen/dp_4"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/my_zp"
+            android:layout_marginLeft="@dimen/dp_11"
+            android:textSize="14sp"
+            android:text="作品：111"
+            android:id="@+id/fans"
+            android:layout_marginBottom="@dimen/dp_4"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/fans"
+            android:layout_marginLeft="@dimen/dp_11"
+            android:textSize="14sp"
+            android:text="作品：111"
+            android:id="@+id/goodly"
+            android:layout_marginBottom="@dimen/dp_4"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/keep"
+            android:layout_width="@dimen/dp_60"
+            android:src="@mipmap/ygz"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_24"
+            android:layout_height="@dimen/dp_23" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

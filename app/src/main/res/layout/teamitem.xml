@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:layout_height="@dimen/dp_53">
+
+        <ImageView
+            android:layout_width="@dimen/dp_43"
+            android:id="@+id/hear"
+            android:layout_centerVertical="true"
+            android:src="@drawable/mei"
+            android:layout_marginLeft="@dimen/dp_19"
+            android:layout_height="@dimen/dp_43" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/dp_77"
+            android:layout_width="wrap_content"
+            android:text="我的名字叫伊莲"
+            android:textColor="#333333"
+            android:id="@+id/team_name"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

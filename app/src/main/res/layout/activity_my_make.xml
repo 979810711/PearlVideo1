@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_make"
+    android:background="#F2F2F2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yjh.com.cn.pearlvideo.activity.MyMakeActivity">
+
+    <RelativeLayout
+        android:layout_marginBottom="8dp"
+        android:id="@+id/isRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/back_myMake"
+            android:layout_width="@dimen/dp_24"
+            android:layout_height="@dimen/dp_24"
+            android:src="@mipmap/fh" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="关注"
+            android:id="@+id/title"
+            android:textColor="#ff000000"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <include
+        layout="@layout/messagelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isRelative" />
+
+
+</RelativeLayout>

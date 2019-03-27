@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:alpha="0.96"
+        android:id="@+id/commLayout"
+        android:layout_marginTop="@dimen/dp_249"
+        android:layout_width="match_parent"
+        android:background="@drawable/textitem"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="@dimen/dp_22"
+        android:layout_height="@dimen/dp_22"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp_10"
+        android:src="@mipmap/xx" />
+
+    <TextView
+        android:id="@+id/textnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="查看评论"
+        android:textColor="#ff999999"
+        android:textSize="15sp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/textnumber"
+        android:id="@+id/commentRecycler"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</RelativeLayout>
